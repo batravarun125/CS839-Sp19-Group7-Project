@@ -1,0 +1,24 @@
+We constructed the following features as our model predictors:
+
+(1) Whether there exists verb among the word. 1 means yes and 0 otherwise.
+(2) Whether there exists ”’s” in the next word. 1 means yes and 0 otherwise.
+(3) Whether there exists prefix in the previous word. 1 means yes and 0 oth- erwise.
+(4) Whether there exists ”the” in the previous word. 0 means yes and 1 oth- erwise.
+(5) Whether there exists ”of” in the previous word. 1 means yes and 0 other- wise.
+(6) Whether there exists ”who”, ”whom” or ”whose” in the previous word. 1 means yes and 0 otherwise.
+
+
+Postprocessing rules:
+
+We constructed the black list:
+
+'Janurary','Feburary','March','April','May','June','July','August','September','October','November','December','God','Gods','Granny', 'Near', 'Beyond', 'Next', 'Below','Come','Go',
+'Persia','Persian','Russia','France','Russians','Viennese','French','Russian','Chinese','German','Latin','United_States','London','America','Winterfell','California','Children','People','Every','Everyone','Everything','Someone','Something','Anything','Others','Nothing','Many','House','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','Yesterday','Tomorrow','Today','Tonight','Spring','Summer', 'Autumn', 'Winter','Men', 'Women'
+
+We’ll predict words contained in the black list as non-person names.
+
+We constructed the white list:
+
+'Mr','Miss','Madame','Madam','Doctor','Father','Dr','Ser','Lord','Prince','Princess','King','Queen','Dear','Mother','Uncle','Mrs','Sir','Sister','Brother','Bishop','Lieutenant-General','Captain','Mayor','General','Son','Children','Granny'
+
+We'll predict words with previous words contained in the white list as person names.
