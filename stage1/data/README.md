@@ -6,4 +6,4 @@
 
 * For example, we’d like to extract “Otchumyelov” from “The police superintendent Otchumyelov is walking across the market square wearing a new overcoat and carrying a parcel under his arm”.   
 
-* In these documents, we marked each person name as \*NAME\*, which will cover first name and last name while prefix and suffix are not included. For example, The police superintendent \*Otchumyelov\* is walking across the market square wearing a new overcoat and carrying a parcel under his arm
+* In these documents, we marked each person name as \*NAME\*, which will cover first name and last name while prefix and suffix are not included. For example, “The police superintendent \*Otchumyelov\* is walking across the market square wearing a new overcoat and carrying a parcel under his arm”.
