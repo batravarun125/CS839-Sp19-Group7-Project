@@ -18,5 +18,5 @@ estimate_PR: estimating_precision_recall.ipynb
 
 recall: [1.0 - 1.0]
 
-precision: [0.95, 1]
+precision: [0.95 - 1]
 
