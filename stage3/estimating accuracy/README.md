@@ -16,6 +16,8 @@ set of 400 tuple pairs: 400.csv
 
 estimate_PR: estimating_precision_recall.ipynb
 
+report of estimate_PR: estimating accuracy.pdf
+
 recall: [1.0 - 1.0]
 
 precision: [0.95 - 1]
